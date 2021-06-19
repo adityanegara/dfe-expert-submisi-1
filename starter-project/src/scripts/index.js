@@ -1,6 +1,4 @@
 import 'regenerator-runtime'; /* for async await transpile */
-import '../styles/styles.scss';
-import {navSlide} from './animation/navbar'
+import '../styles/main.css';
 
-navSlide();
 console.log('Hello Coders! :)');

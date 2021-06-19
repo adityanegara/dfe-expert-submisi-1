@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.getElementById("testing-paragraph"),t=document.getElementById("testing-button");console.log("cache busting");console.log("Test Clean Webpack2"),t.addEventListener("click",(function(){var t;t="Aditya Negara",e.innerText=t}))})();

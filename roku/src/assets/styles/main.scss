@@ -1,0 +1,12 @@
+$primary-color : salmon;
+body{
+    background-color: $primary-color;
+}
+
+.test-image{
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/hero_image/hero-image_2.jpg');
+    background-size: cover;
+    
+}

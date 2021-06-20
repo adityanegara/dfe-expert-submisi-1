@@ -1,4 +1,6 @@
-import "./assets/styles/main.scss";
-import {main} from "./assets/js/main.js";
-console.log("Test Clean Webpack2");
+import "./styles/main.scss";
+import {main} from './app/main.js'
+console.log("aditya negara");
+const testingBabel = "Testing Babel";
+console.log(testingBabel)
 main();

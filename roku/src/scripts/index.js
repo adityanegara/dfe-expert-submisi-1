@@ -1,6 +1,17 @@
 import "../styles/main.scss";
-import {main} from './starter/main.js'
-console.log("aditya negara");
-const testingBabel = "Testing Babel";
-console.log("wele2")
-main();
+import './component/navbar/navbar-list';
+import links from './component/navbar/navbar-links';
+import { navSlide } from "./animation/navbar_animation";
+
+
+const renderNavbar = (links) =>{
+    const navbarContainer = document.getElementById("nav-container");
+    const navbarListElement = document.createElement("navbar-list");
+    navbarListElement.navbarLinks = links;
+    console.log(navbarListElement);
+    navbarContainer.appendChild(navbarListElement); 
+}
+
+renderNavbar(links);
+navSlide();
+

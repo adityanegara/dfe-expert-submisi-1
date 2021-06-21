@@ -25,6 +25,7 @@ class NavbarList extends HTMLElement {
             <ul class = 'nav-links'>
                 ${this.innerHTML}
             </ul>
+    
         <div class="burger" tabindex = "2" aria-label="Menuju Navigasi">
             <div class="line1"></div>
             <div class="line2"></div>

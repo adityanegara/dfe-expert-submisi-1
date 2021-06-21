@@ -7,7 +7,7 @@ class NavbarItem extends HTMLElement {
     render(){
         this.innerHTML = 
         ` <li class ='hover-underline-animation'>
-            <a tabindex = "${this._navbarLink.tabindex}" href = "${this._navbarLink.href}"> ${this._navbarLink.caption} </a>
+            <a id = "${this._navbarLink.id}" tabindex = "${this._navbarLink.tabindex}" href = "${this._navbarLink.href}"> ${this._navbarLink.caption} </a>
           </li>
         `
     }

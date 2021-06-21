@@ -1,5 +1,6 @@
 import "../styles/main.scss";
 import './component/navbar/navbar-list';
+import './component/hero/HeroContainer.js';
 import links from './component/navbar/navbar-links';
 import { navSlide } from "./animation/navbar_animation";
 

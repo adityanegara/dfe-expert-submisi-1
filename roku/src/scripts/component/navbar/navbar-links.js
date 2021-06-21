@@ -2,17 +2,20 @@ const links = [
     {
         id : 1,
         href : "#home",
-        caption : "Home"
+        caption : "Home",
+        tabindex : 3
     },
     {
         id: 2,
         href : "#",
-        caption : "Favorites"
+        caption : "Favorites",
+        tabindex : 4
     },
     {
         id: 3,
         href : "https://github.com/adityanegara",
-        caption : "About"
+        caption : "About",
+        tabindex : 5
     }
 ]
 

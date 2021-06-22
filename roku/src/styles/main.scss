@@ -325,14 +325,29 @@ navbar-list {
 
    
  
-//   .card .text {
-//     margin-top: 2vh;
-//     padding: 0 20px 20px;
-//   }
-//   .card .text > button {
-//     background: gray;
-//     border: 0;
-//     color: white;
-//     padding: 10px;
-//     width: 100%;
-//     }
+footer{
+    h6{
+        text-align: center;
+        font-size: 1em;
+        padding-top: 4vh;
+        color: $color-white;
+        background-color: $base-color;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+ }
+
+ .skip-link:focus {
+    top: 40px;
+  
+ }

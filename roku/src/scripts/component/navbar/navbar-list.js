@@ -20,13 +20,13 @@ class NavbarList extends HTMLElement {
         const new_html = 
         `
         <div class = "logo">
-            <h1 tabindex = "1">ROKU</h1>
+            <h1 tabindex = "2">ROKU</h1>
         </div> 
             <ul class = 'nav-links'>
                 ${this.innerHTML}
             </ul>
     
-        <div class="burger" tabindex = "2" aria-label="Menuju Navigasi">
+        <div class="burger" tabindex = "3" aria-label="To Navigation Button">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>

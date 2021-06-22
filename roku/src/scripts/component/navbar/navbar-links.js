@@ -1,7 +1,7 @@
 const links = [
     {
         id : 1,
-        href : "#maincontent",
+        href : "#hero-section",
         caption : "Home",
         tabindex : 4
     },

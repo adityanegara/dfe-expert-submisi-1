@@ -23,11 +23,7 @@ class NavbarList extends HTMLElement {
             <h1 tabindex = "0">ROKU</h1>
         </div> 
 
-        <div class="burger" tabindex  = "0"  role="button" aria-label="To Navigation Button">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-        </div>
+        <button class = "burger" data-open = "false" aria-label = "To Navigation"></button>
             <ul class = 'nav-links'>
                 ${this.innerHTML}
             </ul>

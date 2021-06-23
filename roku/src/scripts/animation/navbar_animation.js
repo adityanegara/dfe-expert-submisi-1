@@ -8,7 +8,10 @@ export const navSlide = () => {
         firstLink.addEventListener("focus" , () =>{
             const mediaQuery = window.matchMedia('(max-width: 768px)')
             if (mediaQuery.matches) {
-                animateBurger(nav, navLinks, burger);
+                if(burger.dataset.open == "false"){
+                    animateBurger(nav, navLinks, burger);
+                }
+     
               }
         })
     burger.addEventListener("click", () => {
@@ -25,6 +28,14 @@ const animateBurger = (navElement, navLinksElement, burgerElement) =>{
             link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
         }
     });
+ 
     burgerElement.classList.toggle("toggle");
+  
+    if(burgerElement.dataset.open == "false"){
+        burgerElement.setAttribute('data-open', 'true');
+    }else{
+        burgerElement.setAttribute('data-open', 'false');
+    }
+    console.log(burgerElement.dataset.open);
 }
 

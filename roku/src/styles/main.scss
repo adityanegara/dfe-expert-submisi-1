@@ -43,9 +43,16 @@ navbar-list {
 
     li{
         list-style: none;
+        min-width: 60px;
+        min-height: 60px;
+        background-color: $base-color-darker;
+        padding-top: 10px;
+        border-radius: 10px;
     }
 
     a{
+        
+        font-size: 2em;
         color: $color-white;
         text-decoration: none;
         letter-spacing: 3px;
@@ -56,12 +63,20 @@ navbar-list {
 
 .burger {
     display: none;
-
+    min-width: 60px;
+    min-height: 60px;
+    background-color: $base-color-darker;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 8px;
     div{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
         width: 25px;
-        height: 2px;
+        height: 3px;
         background-color: rgb(226, 226, 226);
-        margin: 5px;
+        
         transition: all 0.3s ease;
     }
 }
@@ -122,7 +137,7 @@ navbar-list {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-4px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .line2 {
@@ -130,7 +145,7 @@ navbar-list {
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-4px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 
@@ -167,7 +182,9 @@ navbar-list {
         letter-spacing: 1.3px;
     }
 
-    button{
+    button{ 
+        min-width: 80px;
+        min-height: 80px;
         text-align: left;
         margin-left: 10vw;
         font-size: 1.5em;
@@ -175,10 +192,9 @@ navbar-list {
         background-color: $base-color-dark;
         color: $color-white;
         border-radius: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
         border: none;
         letter-spacing: 1.3px;
         cursor: pointer;
@@ -267,6 +283,7 @@ navbar-list {
             }
 
            h5{
+               font-weight: $font-regular !important;
                font-size: 1.2em;
                text-align: center;
                margin-top: 2vh;
@@ -284,6 +301,8 @@ navbar-list {
            }
 
            button{
+               min-width: 60px;
+               min-height: 60px;
                cursor: pointer;
                font-size: 1em;
                 margin-top: 2vh;
@@ -292,7 +311,7 @@ navbar-list {
                 background: $base-color;
                 border: 0;
                 color: white;
-                padding: 15px;
+        
                 width: 100%;
            }
         }

@@ -9,9 +9,9 @@ class HeroContainer extends HTMLElement {
 
     render(){
         this.innerHTML = `<div class="hero-container">
-        <h2 tabindex = "7">${this.title}</h2>
-        <h3 tabindex = "8">${this.description}</h3>
-        <button aria-label="Download Button " tabindex = "9">${this.buttonCaption}</button>
+        <h2 tabindex = "0">${this.title}</h2>
+        <h3 tabindex = "0">${this.description}</h3>
+        <button aria-label="Download Button " tabindex = "0">${this.buttonCaption}</button>
         </div>`
     }
    }
